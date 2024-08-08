@@ -4,13 +4,21 @@ Simple Gui library
 Usage examples:
 
 For example you want create screen gui, for this you need:
+
 1: load gui library
+
 GuiLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/elfandtears/GuiLibrary/main/source.lua"))()
+
 2:
+
 If you want create ScreenGui first you need create table with properties:
+
 ScreenGuiProperties = {Name = "ScreenGUI", ResetOnSpawn = false, Parent = game.CoreGui}
+
 3:
+
 After that call function with properties table in args:
+
 GuiLibrary.ScreenGUI(ScreenGuiProperties)
 
 Done! now you created ScreenGui
