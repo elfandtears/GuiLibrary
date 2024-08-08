@@ -4,7 +4,7 @@ Simple Gui library
 Usage examples:
 
 For example you want create screen gui, for this you need:
-1. load gui library
+1. load gui library\n
 GuiLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/elfandtears/GuiLibrary/main/source.lua"))()
 2.
 If you want create ScreenGui first you need create table with properties:
