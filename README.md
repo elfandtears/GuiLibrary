@@ -59,9 +59,9 @@ ScreenGUIMain = GuiLibrary.ScreenGUI(ScreenGuiProperties)
 
 FrameProperties = {Name = "Draggable", AnchorPoint = Vector2.new(0.5, 0.5), ZIndex = 2, Position = UDim2.new(0.5, 0, 0.5, 0), Size = UDim2.new(0, 300, 0, 300), Parent = ScreenGUIMain, Draggable_ = true}
 
-FrameProperties2 = {Name = "DraggableBorder", AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.new(0.5, 0, 0.5, 0), Size = UDim2.new(0, 330, 0, 330), Parent = ScreenGUIMain, attach = true} <-- 'attach' attach your gui to other gui
-
 Frame = GuiLibrary.Frame(FrameProperties)
+
+FrameProperties2 = {Name = "DraggableBorder", AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.new(0.5, 0, 0.5, 0), Size = UDim2.new(0, 330, 0, 330), Parent = ScreenGUIMain, attach = Frame} <-- 'attach' attach your gui to other gui
 
 FrameBorders = GuiLibrary.Frame(FrameProperties2)
 
